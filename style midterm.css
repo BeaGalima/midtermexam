@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: hsl(260, 100%, 2%);
+    color: hsl(230, 75%, 45%);
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  nav ul li a {
+    color: hsla(204, 85%, 58%, 0.463);
+    text-decoration: none;
+  }
+  
+  .portrait {
+    text-align: center;
+  }
+  
+  .portrait img {
+    width: 20%; /* 20% width scale */
+    aspect-ratio: 3/4; /* 3:4 aspect ratio */
+  }
+  
+  .hero {
+    background-color: #f6f7f1;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  footer {
+    background-color: #333;
+    color: hsl(0, 90%, 49%);
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
